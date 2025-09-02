@@ -16,7 +16,7 @@ class GestorAparatos:
         self.aparatos.sort(key=lambda x: x.consumo_kwh, reverse=True)
 
     def mostrar_resultados(self):
-        print("\n📌 CONSUMO DE APARATOS ORDENADO POR MAYOR CONSUMO")
+        print("\n CONSUMO DE APARATOS ORDENADO POR MAYOR CONSUMO")
         print("-" * 70)
         print(f"{'Aparato':<20}{'Consumo (kWh)':<20}{'Costo ($)':<20}")
         print("-" * 70)
