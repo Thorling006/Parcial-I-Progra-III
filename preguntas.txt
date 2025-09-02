@@ -1,0 +1,31 @@
+¿Qué ventajas tiene en comparación con poner todo el código en
+un solo archivo o utilizar módulos?
+
+hacer el proyecto en partes más pequeñas en lugar de poner todos los elementos
+ en un solo documento, este enfoque trae múltiples beneficios. El código se vuelve más fácil de entender
+y mantener porque cada parte tiene un trabajo distinto (como hacer matemáticas, manejar interfaces, hacer informes). 
+Además, promueve la reutilización ya que los componentes idénticos pueden emplearse en varias empresas sin tener que recrearlos de nuevo.
+ Facilita una mejor cooperación al permitir que todos operen de forma independiente en secciones separadas sin causar disputas. Al final, 
+ mejorar la escalabilidad simplifica la adición de nuevas características cuando el sistema se expande, manteniendo el orden general del código.
+
+
+ ¿Cómo aplicaron la Programación Orientada a Objetos en su
+solución? Describan el papel de las clases creadas.
+
+La Programación Orientada a Objetos se aplicó creando clases que representan los elementos principales del sistema, en este caso los aparatos eléctricos.
+Cada clase tiene atributos (como nombre, potencia o tiempo de uso) y métodos que permiten calcular automáticamente el consumo y el costo. De esta forma,
+cada aparato se maneja como una entidad independiente, lo que aporta organización, claridad y reutilización del código. El papel de las clases fue modelar 
+la realidad del problema: en lugar de tener solo datos sueltos, cada aparato se convierte en un objeto que encapsula tanto la información como las operaciones relacionadas.
+Esto hace que el sistema sea más ordenado, fácil de extender y más cercano a cómo entendemos el problema en la vida real.
+
+
+¿De qué manera el uso de GitHub facilitó el trabajo colaborativo
+en equipo? Den un ejemplo concreto
+
+El uso de GitHub fue clave para organizarnos mejor en el trabajo en pareja.
+En lugar de que ambos editáramos el mismo archivo y corriéramos el riesgo de sobrescribir el trabajo del otro,
+utilizamos GitHub para dividir el proyecto en partes y luego integrarlas sin problemas. Por ejemplo, uno de nosotros
+se encargó de desarrollar la parte de registro de los aparatos eléctricos, mientras que el otro trabajó en la parte de los cálculos de consumo y costos.
+Después, subimos nuestras partes a GitHub y pudimos unirlas fácilmente en un solo proyecto, revisando los cambios antes de combinarlos.
+.
+..
